@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contate-nos</title>
+    <title>Contato</title>
     <link rel= "stylesheet" href="style.css" >
 </head>
-<body>
+<body id="site">
     <header> 
         <nav>
             <a href="siteSimples.html"> Página inicial</a>  
             <a href="Contato.html"> Contate-nos</a>
         </nav>    
     </header>
+    <main>  
+        <section>
+            <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+                <input placeholder="nome" type="text" name="nome"> 
+                <br>
+                <input placeholder="e-mail" type="text" name="e-mail"> 
+                <br>
+                <input placeholder="telefone" type="text" name="telefone"> 
+                <br>
+                <input placeholder="idade" type="number" name="idade"> 
+                <br>
+                <textarea placeholder="informe algo que você ache necessário" cols="30" rows="10" name="informação extra"></textarea>
+                <br>
+                <button class="btn" type="submit">cadastrar</button>
+            </form>    
+        </section>
+    </main>
     <footer>
         <p>Porto alegre, Rio grande do Sul, Brasil</p>
         <p>Daniel 2021</p>

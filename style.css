@@ -26,15 +26,15 @@ p{
 }
 main{
     flex-grow:1;
-    background-color: aliceblue;
+    background-color: lightgray;
 }
 #site>*{
     padding: 35px;
 }
 header{
     display: flex;
-    background: rgb(48, 48, 48);
-    color: rgb(255, 255, 255);
+    background: darkcyan;
+    color: darkgray;
     align-items: center;
 }
 section{
@@ -46,8 +46,8 @@ footer{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: rgb(48, 48, 48);
-    color: rgb(255, 255, 255);
+    background-color: darkcyan;
+    color: darkgray;
 }
 nav a{
     text-decoration: none;
@@ -61,17 +61,21 @@ nav a:hover{
     align-self: center;
     border-radius: 20px;
     padding: 6px 15px 10px 15px;
-    background: #303030;
-    color: magenta;
+    background: darkcyan;
+    color: darkgray;
+    border: solid mediumaquamarine 1px;
     font-weight: 700;
     transition: 0.5s;
     cursor: pointer;
 }
 .btn:hover{
-    background: maroon;
-    color: mediumaquamarine;
+    background: lightseagreen;
+    color: black;
     position: relative;
     top: -5px;
-    border: solid mediumslateblue 1px;
-    box-shadow: 0px 5px 6px 0px blueviolet;
+    border: solid mediumaquamarine 1px;
+    box-shadow: 0px 5px 6px 0px darkgreen;
+}
+.contato{
+
 }
